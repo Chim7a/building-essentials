@@ -1,0 +1,9 @@
+.home {
+  background-image: url("../../Assets/door_home.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+/*# sourceMappingURL=Home.css.map */
