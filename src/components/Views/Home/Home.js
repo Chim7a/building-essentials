@@ -1,4 +1,5 @@
 import React from 'react';
+import Navigation from '../Navigation/Navigation';
 import './Home.css';
 
 // import DoorHome from '../../Assets/DoorHome.jpg';
@@ -6,7 +7,7 @@ import './Home.css';
 const Home = () => {
   return (
     <div className="home">
-        hello
+        <Navigation />
     </div>
   )
 }
