@@ -1,16 +1,32 @@
 .navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: rgb(0, 0, 0);
-    color: whitesmoke;
+    color: goldenrod;
     width: 100vw;
     height: 10vh;
 
+    .logo {
+        width: 50vw;
+        padding-left: 40px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    img {
+        width: 170px;
+        height: auto;
+    }
+
     ul{ 
         display: flex;
+        justify-content: flex-end;
         list-style: none;
         gap: 50px;
+        cursor: pointer;
+        width: 50vw;
+        padding-right: 40px;
     }
 
     .mobile-icons {

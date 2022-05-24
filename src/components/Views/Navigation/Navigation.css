@@ -2,24 +2,46 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   background-color: black;
-  color: whitesmoke;
+  color: goldenrod;
   width: 100vw;
   height: 10vh;
+}
+
+.navbar .logo {
+  width: 50vw;
+  padding-left: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.navbar img {
+  width: 170px;
+  height: auto;
 }
 
 .navbar ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   list-style: none;
   gap: 50px;
+  cursor: pointer;
+  width: 50vw;
+  padding-right: 40px;
 }
 
 .navbar .mobile-icons {
