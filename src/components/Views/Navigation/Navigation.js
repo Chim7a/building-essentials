@@ -3,6 +3,7 @@ import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import './Navigation.css';
 import LogoGold from '../../Assets/LogoGold.png';
+import { Link } from 'react-router-dom';
 
 const Navigation = () => {
     const [toggle, setToggle] = useState (false);
@@ -18,10 +19,22 @@ const Navigation = () => {
         </div>
         <nav className={toggle ? "nav_links_mobile" : "nav-links"}>
             <ul>
-                <li>Home</li>
-                <li>Products</li>
-                <li>Contact</li>
-                <li>About</li>
+                <Link style={{textDecoration: "none", color:"#daa520"}} to="/" >
+                    <li>Home</li>
+                </Link>
+
+                <Link style={{textDecoration: "none", color:"#daa520"}} to="/products">
+                    <li>Products</li>
+                </Link>
+
+                <Link style={{textDecoration: "none", color:"#daa520"}} to="/contacts">
+                    <li>Contact</li>
+                </Link>
+
+                <Link style={{textDecoration: "none", color:"#daa520"}} to="/about">
+                    <li>About</li>
+                </Link>
+                
             </ul>
         </nav>
     </div>

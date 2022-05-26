@@ -1,12 +1,13 @@
 import React from 'react';
 import Navigation from '../Navigation/Navigation';
 
-const Product = () => {
+const Contact = () => {
   return (
     <div>
-      <Navigation/>
+        <Navigation />
+
     </div>
   )
 }
 
-export default Product;
+export default Contact;
