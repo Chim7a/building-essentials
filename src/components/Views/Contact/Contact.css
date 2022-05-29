@@ -31,6 +31,10 @@
   margin: 20px;
 }
 
+.contact .contact__info p {
+  font-size: 1.3rem;
+}
+
 .contact .email__contact {
   display: -webkit-box;
   display: -ms-flexbox;
