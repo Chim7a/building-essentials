@@ -1,0 +1,15 @@
+.product__list {
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    text-align: center;
+    height: auto;
+    width: 300px;
+    background-color: red;
+
+    img {
+        width: auto;
+        height: 40vh;
+        object-fit: cover;
+    }
+}

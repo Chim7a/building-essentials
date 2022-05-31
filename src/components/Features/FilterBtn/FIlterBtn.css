@@ -1,0 +1,20 @@
+.Products__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+.Products__container button {
+  list-style: none;
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 5px 10px;
+  color: goldenrod;
+  background-color: rgba(245, 245, 245, 0.4);
+  border-radius: 5px;
+}
+/*# sourceMappingURL=FIlterBtn.css.map */

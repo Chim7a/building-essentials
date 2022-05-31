@@ -15,7 +15,7 @@ const Home = () => {
 
           <p> Importer and distributor of all kinds of buildings materials such as:
              Armored doors, Turkish doors, German doors, Israeli doors, American steel doors,
-             PVC aluminum doors, French panel doors, China doors, tiles and marble 
+             PVC aluminum doors, French panel doors, China doors, tiles and marble. 
           </p>
         </div>
     </div>
