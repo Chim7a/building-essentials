@@ -1,5 +1,13 @@
-.Product__filter {
+.Product {
     height: 100vh;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.6);
+
+    .Product__filter {
+        height: 80vh;
+        width: 100vw;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .Product__list {
+        padding-right: 200px;
+    }
 }

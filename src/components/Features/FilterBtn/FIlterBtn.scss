@@ -1,15 +1,16 @@
 .Products__container {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 20px 10px;
+    width: 100vw;
 
     button {
+        margin: 0 10px;
         list-style: none;
         font-size: 1rem;
         font-weight: bolder;
         padding: 5px 10px;
         color: rgb(218, 165, 32);
-        background-color: rgba(245, 245, 245, 0.4);
+        background-color: rgba(177, 167, 167, 0.1);
         border-radius: 5px;
     }
 }

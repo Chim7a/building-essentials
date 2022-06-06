@@ -3,14 +3,17 @@ import FilterBtn from '../../Features/FilterBtn/FilterBtn';
 import ProductList from '../../Features/ProductList/ProductList';
 import Navigation from '../Navigation/Navigation';
 import './Product.css';
-import ProductData from './ProductData';
 
 const Product = () => {
   return (
-    <div className="Product__filter">
+    <div className="Product">
       <Navigation/>
-      <FilterBtn />
-      <ProductList />
+      <div className="Product__filter">
+        <FilterBtn />
+        <div className="Product__list">
+          <ProductList />
+        </div>
+      </div>
     </div>
   )
 }

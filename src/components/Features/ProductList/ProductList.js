@@ -1,12 +1,16 @@
 import React from 'react';
-import LogoGold from '../../Assets/LogoGold.png';
 import "./ProductList.css"
+import ProductData from './ProductData';
 
 const ProductList = () => {
   return (
     <div className="product__list">
-        <h3>Title</h3>
-        <img src={LogoGold} alt="logo" />
+        {ProductData.images.map((image, i) => (
+        <div className="item" key={i}>
+          <h3>{`${image.title}`}</h3>
+          <img src={`${image.url}`} alt={image.description} key={i} />
+        </div>
+      ))}
     </div>
   )
 }
