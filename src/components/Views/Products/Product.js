@@ -25,10 +25,12 @@ const Product = () => {
     <div className="Product">
       <Navigation/>
       <div className="Product__filter">
+        <div className="Product__container">
         <FilterBtn
         setRefiners = { (value) => handleRefiner(value) }
         />
         <ProductList />
+        </div>
       </div>
     </div>
   )

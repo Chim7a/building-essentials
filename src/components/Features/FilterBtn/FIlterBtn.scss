@@ -1,16 +1,12 @@
-.Products__container {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    padding: 20px 10px;
+.filter__container {
+    display: grid;
     width: 100vw;
+    justify-content: center;
+    padding: 20px 0;
 
-    button {
-        margin: 0 10px;
-        list-style: none;
-        font-size: 1rem;
-        font-weight: bolder;
-        padding: 5px 10px;
-        color: rgb(218, 165, 32);
-        background-color: rgba(177, 167, 167, 0.1);
-        border-radius: 5px;
+    .filter {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        color: #daa520;
+        align-content: center;
     }
 }

@@ -6,29 +6,17 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 100vw;
-  height: auto;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: black;
 }
 
 .Product .Product__filter {
-  margin-top: 120px;
-  height: auto;
-  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 0;
+  width: 100vw;
 }
 
-.Product .Product__list {
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
-  width: 100%;
+.Product .Product__filter .Product__container {
   height: auto;
-  color: #daa520;
+  width: auto;
+  background-color: black;
 }
 /*# sourceMappingURL=Product.css.map */

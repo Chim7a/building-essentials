@@ -1,19 +1,23 @@
 import React from 'react';
 import './FIlterBtn.css';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Checkbox from '@mui/material/Checkbox';
 
 const FilterBtn = ({setRefiners}) => {
   return (
-    <div className="Products__container">
-        <button >All</button>
-        <button>China Doors</button>
-        <button>Flush/hard wooden Doors</button>
-        <button>German Copper Doors</button>
-        <button>German Doors</button>
-        <button>Glass Doors</button>
-        <button>Israeli Doors</button>
-        <button>Turkish Doors</button>
-        <button>Madrid Doors</button>
-        <button>Tiles</button>
+    <div className="filter__container">
+      <div className="filter">
+      <FormControlLabel control={<Checkbox defaultChecked style={{color: "#ffffff"}} />} label="All" />
+      <FormControlLabel control={<Checkbox defaultChecked style={{color: "#ffffff"}} />} label="China Doors" />
+      <FormControlLabel control={<Checkbox defaultChecked style={{color: "#ffffff"}} />} label="Flush/hard wooden Doors" />
+      <FormControlLabel control={<Checkbox defaultChecked style={{color: "#ffffff"}} />} label="German Copper Doors" />
+      <FormControlLabel control={<Checkbox defaultChecked style={{color: "#ffffff"}} />} label="German Doors" />
+      <FormControlLabel control={<Checkbox defaultChecked style={{color: "#ffffff"}} />} label="Glass Doors" />
+      <FormControlLabel control={<Checkbox defaultChecked style={{color: "#ffffff"}} />} label="Israeli Doors" />
+      <FormControlLabel control={<Checkbox defaultChecked style={{color: "#ffffff"}} />} label="Turkish Doors" />
+      <FormControlLabel control={<Checkbox defaultChecked style={{color: "#ffffff"}} />} label="Madrid Doors" />
+      <FormControlLabel control={<Checkbox defaultChecked style={{color: "#ffffff"}} />} label="Tiles" />
+      </div>
     </div>
   )
 }
