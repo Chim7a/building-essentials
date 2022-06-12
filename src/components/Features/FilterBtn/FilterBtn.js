@@ -1,26 +1,19 @@
 import React from 'react';
 import './FIlterBtn.css';
 
-
-const categoryData = [
-  { name: "All" }, 
-  { name: "China Doors" },
-  { name: "Flush/hard wooden Doors" }, 
-  { name: "German Copper Doors" },
-  { name: "German Doors" }, 
-  { name: "Glass Doors" },
-  { name: "Israeli Doors" }, 
-  { name: "Turkish Doors" },
-  { name: "Madrid Doors" }, 
-  { name: "Tiles" }
-];
-
-const FilterBtn = () => {
+const FilterBtn = ({setRefiners}) => {
   return (
     <div className="Products__container">
-        {categoryData.map((category) => (
-        <button>{category.name}</button>
-      ))}
+        <button >All</button>
+        <button>China Doors</button>
+        <button>Flush/hard wooden Doors</button>
+        <button>German Copper Doors</button>
+        <button>German Doors</button>
+        <button>Glass Doors</button>
+        <button>Israeli Doors</button>
+        <button>Turkish Doors</button>
+        <button>Madrid Doors</button>
+        <button>Tiles</button>
     </div>
   )
 }

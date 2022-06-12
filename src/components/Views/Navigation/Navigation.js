@@ -12,7 +12,11 @@ const Navigation = () => {
   return (
     <div className="navbar">
         <div className="mobile-icons navbar_mobile_title" onClick={changeToggle} >
-            {toggle ? <AiIcons.AiOutlineClose /> : <FaIcons.FaBars />}
+            <div className="logo__mobile">
+                <img src={LogoGold} alt="logo" />
+                {toggle ? <AiIcons.AiOutlineClose /> : <FaIcons.FaBars />}
+            </div>
+            
         </div>
         <div className="logo">
             <img src={LogoGold} alt="logo" />
