@@ -1,8 +1,10 @@
 .about {
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.5);
-
-    p {
-        color: goldenrod;
+    
+    .about__info {
+        p {
+            color: goldenrod;
+        }
     }
 }

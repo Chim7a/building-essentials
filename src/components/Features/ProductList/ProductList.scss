@@ -1,14 +1,13 @@
 .product__list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-column-gap: 1rem;
-    grid-row-gap: 1rem;
-    width: auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 100vw;
 
     .products {
         display: flex;
         flex-direction: column;
         color: #daa520;
+        width: 100%;
 
         h1 {
             font-size: 1.2rem;
