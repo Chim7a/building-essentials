@@ -1,7 +1,8 @@
 import React from 'react';
-import Navigation from '../Navigation/Navigation';
-import Button from '@mui/material/Button';
 import './Home.css';
+import Navigation from '../Navigation/Navigation';
+import CompanyHeader from '../../Features/CompanyHeader/CompanyHeader';
+import ViewProductBtn from '../../Features/Button/ViewProductBtn';
 
 
 const Home = () => {
@@ -9,16 +10,12 @@ const Home = () => {
     <div className="home">
         <Navigation />
         <div className="home__container home__container__mobile">
-          <div className="home__title">
-          <h1>Building<span className="home__header">Essentials</span></h1>
-          <p>Aesthetic at its peak </p>
-          </div>
-
+          <CompanyHeader />
           <p> Importer and distributor of all kinds of buildings materials such as:
              Armored doors, Turkish doors, German doors, Israeli doors, American steel doors,
              PVC aluminum doors, French panel doors, China doors, Tiles and Marbles. 
           </p>
-          <Button variant="outlined" style={{borderColor:"white", color:"#daa520", width:"30%", marginTop:"10px", fontWeight:"bolder" }} >View Product</Button>
+          <ViewProductBtn />
         </div>
     </div>
   )

@@ -1,0 +1,24 @@
+.title .home__title {
+  padding: 10px 0;
+}
+
+.title .home__title .title__motto {
+  color: whitesmoke;
+  font-size: 1.2rem;
+}
+
+.title .home__header {
+  color: whitesmoke;
+}
+
+.title h1 {
+  font-size: 3.5rem;
+  color: #daa520;
+}
+
+@media screen and (max-width: 820px) {
+  .title h1 {
+    font-size: 2.8rem;
+  }
+}
+/*# sourceMappingURL=CompanyHeader.css.map */

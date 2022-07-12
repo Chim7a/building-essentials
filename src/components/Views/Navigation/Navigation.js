@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
+import './Navigation.css';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
-import './Navigation.css';
 import LogoGold from '../../Assets/LogoGold.png';
 import { Link } from 'react-router-dom';
 
@@ -23,19 +23,19 @@ const Navigation = () => {
         </div>
         <nav className={toggle ? "nav_links_mobile" : "nav-links"}>
             <ul>
-                <Link style={{textDecoration: "none", color:"#daa520"}} to="/" >
+                <Link className="link" to="/" >
                     <li>Home</li>
                 </Link>
 
-                <Link style={{textDecoration: "none", color:"#daa520"}} to="/products">
+                <Link className="link" to="/products">
                     <li>Products</li>
                 </Link>
 
-                <Link style={{textDecoration: "none", color:"#daa520"}} to="/contacts">
+                <Link className="link" to="/contacts">
                     <li>Contact</li>
                 </Link>
 
-                <Link style={{textDecoration: "none", color:"#daa520"}} to="/about">
+                <Link className="link" to="/about">
                     <li>About</li>
                 </Link>
                 

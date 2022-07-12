@@ -1,0 +1,26 @@
+.title {
+    .home__title {
+        padding: 10px 0;
+
+        .title__motto {
+            color: whitesmoke;
+            font-size: 1.2rem;
+        }
+    }
+
+    .home__header {
+        color: whitesmoke;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        color: #daa520;
+    }
+    
+    @media  screen and (max-width: 820px) {
+        h1{
+            font-size: 2.8rem;
+        }
+    }
+
+}

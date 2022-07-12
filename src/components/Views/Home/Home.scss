@@ -11,26 +11,9 @@
      padding-left:100px;
      color: #daa520;
 
-     .home__title {
-         padding: 10px 0;
-
-        p {
-            color: whitesmoke;
-            font-size: 1.2rem;
-        }
-     }
-
-     .home__header {
-         color: whitesmoke;
-     }
-
-     h1{
-         font-size: 3.5rem;
-     }
-
      p {
          width: 70%;
-        font-size: 1.5rem;
+         font-size: 1.5rem;
     }
  }
  @media  screen and (max-width: 820px) {
@@ -41,10 +24,6 @@
             text-align: center;
             width: auto;
             padding-right:100px;
-
-            h1{
-                font-size: 3rem;
-            }
        
             p {
                font-size: 1.2rem;

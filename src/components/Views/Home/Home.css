@@ -20,23 +20,6 @@
   color: #daa520;
 }
 
-.home .home__container .home__title {
-  padding: 10px 0;
-}
-
-.home .home__container .home__title p {
-  color: whitesmoke;
-  font-size: 1.2rem;
-}
-
-.home .home__container .home__header {
-  color: whitesmoke;
-}
-
-.home .home__container h1 {
-  font-size: 3.5rem;
-}
-
 .home .home__container p {
   width: 70%;
   font-size: 1.5rem;
@@ -56,9 +39,6 @@
     text-align: center;
     width: auto;
     padding-right: 100px;
-  }
-  .home .home__container__mobile h1 {
-    font-size: 3rem;
   }
   .home .home__container__mobile p {
     font-size: 1.2rem;

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
+import './Product.css';
 import FilterBtn from '../../Features/FilterBtn/FilterBtn';
 import ProductList from '../../Features/ProductList/ProductList';
 import Navigation from '../Navigation/Navigation';
-import './Product.css';
 
 const Product = () => {
   const [refiners, setRefiners] = useState([])
